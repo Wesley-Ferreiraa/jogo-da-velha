@@ -1,0 +1,40 @@
+body{
+    margin-top: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: aquamarine;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: blueviolet;
+  }
+  
+  .cell:hover {
+    background-color:rgb(91, 26, 152);
+  }
+  
+  .azul {
+    background-color: blue;
+  }
+  
+  .vermelho {
+    background-color: red;
+  }
+  
